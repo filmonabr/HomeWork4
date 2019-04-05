@@ -23,4 +23,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 input[type="button"]{
     margin-top: 3px;
 }
+th{
+    alignment: left;
+}
 
