@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>WAP</title>
+</head>
+<style type="text/css">
+    h3{
+        background-color: gray;
+        width: 13%;
+        margin-top: 5px;
+    }
+    h2{
+        width: 33%;
+        background-color: gray;
+    }
+    table {
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    table, td, th {
+        border: 1px solid black;
+    }
+    tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
+<body>
+<h1>HomeWork 4</h1>
+<form action="/pInfo">
+    <h2>Task list</h2>
+    Task <br> <input type="text" name="tif" placeholder="Breakfast at Tiffanys"> <br>
+    Required by <br>
+    <input type="date" name="reqday"> <br>
+    category <br>
+    <select>
+        <option value="wor">Work</option>
+        <option value="per" selected>Personal</option>
+        <option value="com">Community</option>
+        <option value="gues">Guest</option>
+    </select> <br>
+    <input type="button" name="save" value="Save task">
+    <input type="button" name="clear" value="Clear task"> <br>
+    <table style="width:33%">
+        <tr>
+            <th>Name</th>
+            <th>Due</th>
+            <th>Category</th>
+        </tr>
+        <tr>
+            <td>Return library books</td>
+            <td>2013-10-14</td>
+            <td>Personal</td>
+        </tr>
+        <tr>
+            <td>Perform project demo to stakeholders</td>
+            <td>2013-10-14</td>
+            <td>Work</td>
+        </tr>
+        <tr>
+            <td>Meet friends for dinner</td>
+            <td>2013-10-14</td>
+            <td>Personal</td>
+        </tr>
+    </table> <br>
+    <input type="button" name="add" value="Add Task">
+    <h2>You have 3 tasks</h2>
+</form>
+
+
+<p>
+    <a href="https://validator.w3.org/check/referer">
+        <img src=http://mumstudents.org/cs472/2013-09/images/w3c-html.png
+             alt="Validate" />
+    </a>
+</p>
+</body>
+</html>
